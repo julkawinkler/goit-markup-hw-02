@@ -9,18 +9,12 @@ body{
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
-  
+  text-align: center;
   width: 1600px;
   height: 600px;
   margin-top: 80px;
 }
 
-h1 {
-width: 696px;
-height: 120px;
-text-align:center;
-padding: center
-}
 
 h2 {
   color: #212121;
@@ -33,11 +27,15 @@ h4 {
   font-weight: 900;
   line-height: 16.41px;
   letter-spacing: 3%;
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: center;
 }
+
 
 .post {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .post-description {
@@ -53,12 +51,80 @@ h4 {
   line-height: 18.75px;
   text-align: center;
   display: flex;
-
 }
+
 .john {
   color:#212121
 }
 
-.nasz {
+.our {
   color:#757575
+}
+.main {
+color: #2196F3;
+text-decoration: none;
+}
+
+.studio {
+  color: #000000;
+  
+}
+
+.imagebox {
+  display: flex;
+  text-align: center;
+  margin:30px;
+  padding:30px;
+  justify-content: space-between; 
+}
+
+.image-title {
+  color:#212121
+  font-weight: 700;
+}
+
+.image-description {
+  color:#757575
+}
+
+nav:hover a:hover {
+  color: #2196F3;
+}
+
+.navigation a {
+  text-decoration: none;
+  color:  #212121;
+
+}
+
+.contact a {
+  text-decoration: none;
+  color:  #212121;
+}
+
+.contact a:hover {
+  background: #2196F3;
+}
+
+.button-main {
+background: #2196F3;
+color:#ffffff
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+text-align: center;
+}
+
+button {
+  background: #F5F4FA;
+  width: 93px
+  height: 38px
+  top: 174px
+  left: 639px
+  border-radius: 4px  
+}
+
+button:hover {
+  background: #2196F3;
 }
